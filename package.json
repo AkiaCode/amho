@@ -1,0 +1,22 @@
+{
+  "name": "amho",
+  "version": "0.1.0",
+  "description": "한글 암호",
+  "main": "./src/lib.js",
+  "scripts": {
+    "test": "node ./cli/amho.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkiaCode/amho.git"
+  },
+  "keywords": [
+    "amho"
+  ],
+  "author": "Catry",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AkiaCode/amho/issues"
+  },
+  "homepage": "https://github.com/AkiaCode/amho#readme"
+}
