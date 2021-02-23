@@ -7,9 +7,8 @@ module.exports = function decode(code) {
     for (i of code) {
         if (i.charCodeAt(0) === map[32]) { d.push(" "); continue }
 
-        console.log(i.charCodeAt(0), Number(findKey(i, map)))
         if (i.charCodeAt(0) > 11201) {
-            if (200 < i.charCodeAt(0) > 150) { d.push(String.fromCharCode(Number(findKey(i, map)))); continue }
+            if (200 < i.charCodeAt(0) > 150 || i.charCodeAt(0) > 44100) { d.push(String.fromCharCode(Number(findKey(i, map)))); continue }
             if (i.charCodeAt(0) > 50400) {
                 d.push(String.fromCharCode(Number(findKey(i, map))+(11201*4)))
             } else {
