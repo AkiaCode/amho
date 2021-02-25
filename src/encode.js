@@ -14,11 +14,11 @@ module.exports = function encode(code) {
                 e.push(String.fromCharCode(map[i.charCodeAt(0)-(11201*3)]))
             } else {
                 if  (map[i.charCodeAt(0)-(11201)] != undefined) {
-                    e.push(String.fromCharCode(map[i.charCodeAt(0)-(10000)]) + '정')
-                    e.push(String.fromCharCode(map[i.charCodeAt(0)-(11201)]) + '님')
+                    e.push(String.fromCharCode(map[i.charCodeAt(0)-(10000)]) + 1)
+                    e.push(String.fromCharCode(map[i.charCodeAt(0)-(11201)]) + 2)
                 } else {
-                    e.push(String.fromCharCode(map[i.charCodeAt(0)+(1111)]) + '바')
-                    e.push(String.fromCharCode(map[i.charCodeAt(0)+(2222)]) + '부')
+                    e.push(String.fromCharCode(map[i.charCodeAt(0)+(1111)]) + 3)
+                    e.push(String.fromCharCode(map[i.charCodeAt(0)+(2222)]) + 4)
                     e.push(String.fromCharCode(map[i.charCodeAt(0)]))
                     //console.log(i, i.charCodeAt(0), map[i.charCodeAt(0)])
                 }
