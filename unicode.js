@@ -10,3 +10,4 @@ for (let i = 44032; i <= 55203; i++) {
     console.log(`    map[${n}] = ` + i)
     n += 1
 }
+

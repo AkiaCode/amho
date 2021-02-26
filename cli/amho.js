@@ -15,6 +15,6 @@ switch (process.argv[2]) {
         console.log("\tamho encode \"[Something]\"")
         console.log("\tㄴex) naga encode \"정님\"\n")
         console.log("\tamho decode \"[Something]\"")
-        console.log("\tㄴex) naga decode \"쓳둧\"")
+        console.log("\tㄴex) naga decode \"쓳꾶\"")
         break
 }

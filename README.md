@@ -6,7 +6,7 @@
 const amho = require('amho')
 
 console.log(amho.encode('테스트'))
-// 츪쐳쾖
+// 츪뾂쾖
 console.log(amho.decode('츪쐳쾖'))
 // 테스트
 ```
