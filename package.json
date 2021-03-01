@@ -1,8 +1,11 @@
 {
   "name": "amho",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "한글 암호",
   "main": "./src/lib.js",
+  "bin": {
+    "amho": "./cli/amho.js"
+  },
   "scripts": {
     "test": "node ./cli/amho.js"
   },
