@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const amho = require('../src/lib')
 
 // node ./cli/amho.js encode "fdfsf dfs"
